@@ -17,10 +17,6 @@ export class FolderPage implements OnInit {
   }
   
   
-
-   
-}
-
 var validador = 0;
 
 window.addEventListener('ionDidClose', e =>{
@@ -32,6 +28,10 @@ if(localStorage && validador === 0){
     validador++
   }
   });
+   
+}
+
+
 
   
 
