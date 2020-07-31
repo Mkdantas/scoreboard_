@@ -1,0 +1,108 @@
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Scoreboard</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+  
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" class="background_button">
+    <ion-menu-button>
+      <ion-icon name="settings-outline" class="settings_button"></ion-icon>
+    </ion-menu-button>
+  </ion-fab>
+
+  
+
+   
+
+
+    <div id="logo">
+    <img src="\assets\img\BrasilBasquete_logo_100px.png">
+    </div>
+    
+  
+  
+<!-- Boxscore -->
+  <div id="container">
+    <div>
+    <div>
+      <div class="">
+        <p class="title_home"></p>
+      </div>
+      <div id="boxscoreR">
+        <p class="boxscoreR"></p>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div class="">
+          <p class="title_visitor"></p>
+        </div>
+      </div>
+      <div id="boxscoreL">
+        <p class="boxscoreL"></p>
+      </div>
+      </div>
+    </div>
+
+
+  <!-- Countdown -->
+  <div id="container">
+    <div>
+      <div id="countdown">
+        <p class="time"></p>
+      </div>
+    </div>
+  </div>  
+    
+  <!-- Fouls and Period -->
+  <div id="container">
+    <div>
+      <div class="title_period">PERIODO</div>
+      <button id="botao" onclick="teste()">teste</button>
+      <div id="period">
+        <p class="period">0</p>
+      </div>
+    </div>
+    <div>
+      <div id="title_foulshome">
+        FALTAS
+      </div>
+      <div id="foulshome">
+        <p class="foulshome"></p>
+      </div>
+    </div>
+    <div>
+      <div id="title_foulsvisitor">
+        FALTAS
+      </div>
+      <div id="foulsvisitor">
+        <p class="foulsvisitor"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div>
+      <div class="position1">
+        <img src="\assets\icon\whistle.svg">
+      </div>
+      <div class="position2">
+        <img src="\assets\icon\basketball.svg">
+      </div>
+      <div class="position3">
+        <img src="\assets\icon\music.svg">
+      </div>
+      <div class="position4">
+        <img src="\assets\icon\music.svg">
+      </div>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</ion-content>
+

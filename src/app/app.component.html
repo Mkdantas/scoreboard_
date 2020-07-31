@@ -1,0 +1,27 @@
+<ion-app>
+  <ion-split-pane contentId="main-content">
+    
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+        <ion-list id="inbox-list">
+          <ion-list-header>Configurações</ion-list-header>
+        </ion-list>  
+          <ion-input id="home" type="text" placeholder="Equipe Mandante" maxlength="10"></ion-input>
+          <ion-input id="visitor" type="text" placeholder="Equipe Visitante" maxlength="10"></ion-input>
+          <ion-input id="time" type="time" placeholder="Duração da partida"></ion-input>
+          <ion-input id="boxscoreR" type="number" placeholder="Placar inicial Mandante"></ion-input>
+          <ion-input id="boxscoreL" type="number" placeholder="Placar inicial Visitante"></ion-input>
+          <ion-input id="foulshome" type="number" placeholder="Faltas Mandante"></ion-input>
+          <ion-input id="foulsvisitor" type="number" placeholder="Falta Visitante"></ion-input> 
+          
+          
+          <ion-button id="botao_definir" expand="full" type="submit">DEFINIR</ion-button>
+          
+          
+             
+        
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>
